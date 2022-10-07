@@ -1,0 +1,12 @@
+{{#if msj}}
+    <div class="lista">
+         {{#each msj}}
+            <div>
+              <b class="infoMail" style="color: black">{{this.Data.email}}:</b> 
+              <b class="infoMail" style="color: rgb(76, 216, 118)"> {{this.Data.Date}}:</b> 
+              <b class="infoMsj" style="color: black">{{this.Data.mensaje}}</b> 
+              </hr>
+            </div>
+         {{/each}}
+{{/if}} 
+
